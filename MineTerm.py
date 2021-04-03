@@ -1,11 +1,12 @@
 import sys
 from mcpi.minecraft import Minecraft as minc
-passwords = {'pi':'testberry'}
 
-version = '0.0.1 PreAlpha build'
-prompt = '>_'
-str_input = None
-commands = ['nick', 'tp']
+passwords   = {'pi':'testberry'}
+version     = '0.0.1 PreAlpha build'
+prompt      = '>_'
+str_input   = None
+commands    =  ['nick', 'tp']
+
 print('MineTerm \n' + version, 'running on Python', sys.version,  '''
 By LEHAtupointow: lehatupointow.blogspot.com
 use /help for more information on commands.''')
